@@ -31,6 +31,7 @@ public class CreateCFG extends AbstractHandler {
 		IStructuredSelection selection = (IStructuredSelection) HandlerUtil
 												.getActiveMenuSelection(event);
 		
+		// Teste
 		/*Object firstElement = selection.getFirstElement();
 		if (firstElement instanceof ICompilationUnit) {
 			ICompilationUnit cu = (ICompilationUnit) firstElement;
